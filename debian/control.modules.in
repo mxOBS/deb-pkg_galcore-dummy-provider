@@ -1,0 +1,20 @@
+Source: galcore-dummy
+Section: unknown
+Priority: optional
+Maintainer: unknown <josua@unknown>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.3
+
+Package: galcore-dummy-modules-_KVERS_
+Architecture: any
+Provides: galcore-dummy-modules
+Description: galcore-dummy modules for Linux (kernel _KVERS_).
+ This package contains the set of loadable kernel modules for the
+ <description>.
+ .
+ This package contains the compiled kernel modules for _KVERS_
+ .
+ If you have compiled your own kernel, you will most likely need to build
+ your own galcore-dummy-modules. The galcore-dummy-source package has been
+ provided for use with the Debian's module-assistant or kernel-package
+ utilities to produce a version of galcore-dummy-modules for your kernel.

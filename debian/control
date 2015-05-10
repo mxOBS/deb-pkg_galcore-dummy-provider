@@ -1,0 +1,23 @@
+Source: galcore-dummy
+Section: kernel
+Priority: extra
+Maintainer: Josua Mayer <privacy@not.given>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/galcore-dummy.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/galcore-dummy.git;a=summary
+
+Package: galcore-dummy-v4
+Architecture: any-arm
+Depends: ${misc:Depends}
+Provides: galcore-4.6.9.9754
+Description: TODO
+ T. O. D. O.
+
+Package: galcore-dummy-v5
+Architecture: any-arm
+Depends: ${misc:Depends}
+Provides: galcore-5.0.11.25762
+Description: TODO                                                                               
+ T. O. D. O.
